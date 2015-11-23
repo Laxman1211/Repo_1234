@@ -1,0 +1,24 @@
+package Day1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Chrome {
+
+	public static void main(String[] args) {
+		try
+		{
+		System.setProperty("webdriver.chrome.driver", "D:\\Laxman\\chromedriver.exe");
+		}
+		ChromeDriver dr=new ChromeDriver();
+		dr.get("http://citibank.com");
+		dr.findElement(By.linkText("Learn More")).click();
+
+		dr.close();
+		
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package Day1;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		int arr[]= {12,45,56,78,98};
+
+	}
+
+}
